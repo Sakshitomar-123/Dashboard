@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaFacebookF } from "react-icons/fa";
 import { GoogleOAuthProvider, GoogleLogin } from "@react-oauth/google";
 import { useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
@@ -75,9 +74,6 @@ const Login = () => {
                 onSuccess={handleGoogleLogin}
                 onError={handleGoogleLoginFailure}
               />
-            </SocialButton>
-            <SocialButton facebook>
-              <FaFacebookF size={22} />
             </SocialButton>
           </SocialLogin>
           <Divider>Or use e-mail address</Divider>

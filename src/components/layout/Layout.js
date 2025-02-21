@@ -12,7 +12,7 @@ const MainContent = styled.main`
   margin-left: 250px;
   padding: 20px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     margin-left: 0;
   }
 `;
